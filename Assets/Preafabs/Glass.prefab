@@ -1269,7 +1269,7 @@ MonoBehaviour:
   - {fileID: 94519267836437975}
   - {fileID: 6981767052497015197}
   - {fileID: 593520622060876924}
-  explosionForce: 1
+  explosionForce: 100
   explosionRadius: 2
   YForce: 0.4
   glassBreakAudio: {fileID: 2303619093395519204}
