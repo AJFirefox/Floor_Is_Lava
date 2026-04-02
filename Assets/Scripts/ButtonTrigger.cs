@@ -1,16 +1,16 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Video;
 
 public class ButtonTrigger : MonoBehaviour
 {
-    public UnityEvent onButtonLanded; // Drag the target action here in the Inspector
+    public VideoPlayer myVideoPlayer;
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        // Check if the object landing on the button is the Player
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) // Optional: check for specific tag
         {
-            onButtonLanded.Invoke(); // Activates whatever is linked
+            myVideoPlayer.Play();
         }
     }
 }
