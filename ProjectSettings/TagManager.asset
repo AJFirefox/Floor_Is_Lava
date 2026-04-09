@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Domino
+  - Obstacle
   layers:
   - Default
   - TransparentFX
