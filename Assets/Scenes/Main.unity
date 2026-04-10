@@ -31271,7 +31271,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: bbb235fff4f48426b863b36058ab66d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -31528,6 +31528,7 @@ GameObject:
   - component: {fileID: 90444968}
   - component: {fileID: 90444967}
   - component: {fileID: 90444966}
+  - component: {fileID: 90444972}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Obstacle
@@ -31694,6 +31695,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &90444972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90444965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!43 &103177851
 Mesh:
   m_ObjectHideFlags: 0
@@ -31889,7 +31908,7 @@ GameObject:
   - component: {fileID: 119989045}
   m_Layer: 0
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41197,13 +41216,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119989036}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.200005, y: -1007.9, z: -5.2000012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.584007, y: -1007.9, z: 2.0902686}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1784703459}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 973741244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &119989045
 MonoBehaviour:
@@ -42450,7 +42469,7 @@ Transform:
   m_GameObject: {fileID: 146453457}
   serializedVersion: 2
   m_LocalRotation: {x: -0.24999955, y: 0.06698707, z: 0.24999958, w: 0.933013}
-  m_LocalPosition: {x: -6.8829193, y: -41.39423, z: 2.3700001}
+  m_LocalPosition: {x: -2.4829178, y: -41.39423, z: 2.67}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -42474,7 +42493,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &158651977
 RectTransform:
   m_ObjectHideFlags: 0
@@ -58753,6 +58772,7 @@ GameObject:
   - component: {fileID: 306225848}
   - component: {fileID: 306225847}
   - component: {fileID: 306225846}
+  - component: {fileID: 306225852}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Obstacle
@@ -58919,6 +58939,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &306225852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306225845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1 &313214467
 GameObject:
   m_ObjectHideFlags: 0
@@ -59865,6 +59903,7 @@ GameObject:
   - component: {fileID: 445558996}
   - component: {fileID: 445558995}
   - component: {fileID: 445558994}
+  - component: {fileID: 445558998}
   m_Layer: 0
   m_Name: Capsule (3)
   m_TagString: Obstacle
@@ -59994,6 +60033,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445558991}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &445558998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445558991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1 &446090925
 GameObject:
   m_ObjectHideFlags: 0
@@ -60359,7 +60416,7 @@ Transform:
   m_GameObject: {fileID: 446090925}
   serializedVersion: 2
   m_LocalRotation: {x: -0.24999955, y: 0.06698707, z: 0.24999958, w: 0.933013}
-  m_LocalPosition: {x: 6.9170837, y: -21.69423, z: 0.8700001}
+  m_LocalPosition: {x: 3.5170822, y: -21.69423, z: 4.17}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -62477,7 +62534,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 158651977}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 973741244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -63227,6 +63284,7 @@ GameObject:
   - component: {fileID: 725383389}
   - component: {fileID: 725383388}
   - component: {fileID: 725383387}
+  - component: {fileID: 725383392}
   m_Layer: 0
   m_Name: Capsule (1)
   m_TagString: Obstacle
@@ -63395,6 +63453,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725383385}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &725383392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725383385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1 &754501507
 GameObject:
   m_ObjectHideFlags: 0
@@ -64653,7 +64729,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 9875a245ac49007498213638a307faa1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64714,6 +64790,7 @@ GameObject:
   - component: {fileID: 832478893}
   - component: {fileID: 832478892}
   - component: {fileID: 832478891}
+  - component: {fileID: 832478897}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Obstacle
@@ -64880,6 +64957,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832478897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832478890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -64949,7 +65044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &838850951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65189,7 +65284,7 @@ GameObject:
   - component: {fileID: 840680866}
   m_Layer: 9
   m_Name: Bucket
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65227,7 +65322,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: bbb235fff4f48426b863b36058ab66d2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -103249,6 +103344,7 @@ GameObject:
   - component: {fileID: 967115085}
   - component: {fileID: 967115084}
   - component: {fileID: 967115083}
+  - component: {fileID: 967115088}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Obstacle
@@ -103417,6 +103513,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967115081}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &967115088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967115081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1 &973741243
 GameObject:
   m_ObjectHideFlags: 0
@@ -103452,6 +103566,12 @@ Transform:
   - {fileID: 2033436579}
   - {fileID: 702547615}
   - {fileID: 355310316}
+  - {fileID: 2035623781}
+  - {fileID: 1178797856}
+  - {fileID: 2057621958}
+  - {fileID: 119989042}
+  - {fileID: 624014636}
+  - {fileID: 1710479473}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &978887759
@@ -103982,6 +104102,7 @@ GameObject:
   - component: {fileID: 1087771480}
   - component: {fileID: 1087771479}
   - component: {fileID: 1087771478}
+  - component: {fileID: 1087771484}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Obstacle
@@ -104148,6 +104269,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1087771484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087771477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1001 &1119160723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104406,6 +104545,7 @@ GameObject:
   - component: {fileID: 1169044571}
   - component: {fileID: 1169044570}
   - component: {fileID: 1169044569}
+  - component: {fileID: 1169044575}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Obstacle
@@ -104572,6 +104712,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1169044575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169044568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1 &1178797850
 GameObject:
   m_ObjectHideFlags: 0
@@ -104588,7 +104746,7 @@ GameObject:
   - component: {fileID: 1178797851}
   m_Layer: 15
   m_Name: Pipe
-  m_TagString: Untagged
+  m_TagString: Domino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107743,12 +107901,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178797850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.200005, y: -98, z: -5.500001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.584007, y: -98, z: 1.7902689}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 973741244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1181360864
 GameObject:
@@ -123997,7 +124155,7 @@ GameObject:
   - component: {fileID: 1266325717}
   m_Layer: 0
   m_Name: Torus (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143465,6 +143623,7 @@ GameObject:
   - component: {fileID: 1345956419}
   - component: {fileID: 1345956418}
   - component: {fileID: 1345956417}
+  - component: {fileID: 1345956423}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Obstacle
@@ -143631,6 +143790,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1345956423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345956416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!43 &1354290690
 Mesh:
   m_ObjectHideFlags: 0
@@ -144179,7 +144356,7 @@ GameObject:
   - component: {fileID: 1393529503}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144292,7 +144469,7 @@ GameObject:
   - component: {fileID: 1409378257}
   m_Layer: 0
   m_Name: Torus (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163584,6 +163761,7 @@ GameObject:
   - component: {fileID: 1469334771}
   - component: {fileID: 1469334770}
   - component: {fileID: 1469334769}
+  - component: {fileID: 1469334775}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Obstacle
@@ -163750,6 +163928,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469334775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469334768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!1 &1541330758
 GameObject:
   m_ObjectHideFlags: 0
@@ -196646,6 +196842,7 @@ GameObject:
   - component: {fileID: 1609287715}
   - component: {fileID: 1609287714}
   - component: {fileID: 1609287713}
+  - component: {fileID: 1609287718}
   m_Layer: 0
   m_Name: Capsule (2)
   m_TagString: Obstacle
@@ -196814,6 +197011,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609287711}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1609287718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609287711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!43 &1610042096
 Mesh:
   m_ObjectHideFlags: 0
@@ -198535,12 +198750,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710479470}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 109.78401, y: 0, z: 7.29027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 973741244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1711492630
 GameObject:
@@ -214801,7 +215016,7 @@ Transform:
   m_GameObject: {fileID: 1738647377}
   serializedVersion: 2
   m_LocalRotation: {x: -0.24999955, y: 0.06698707, z: 0.24999958, w: 0.933013}
-  m_LocalPosition: {x: -0.4829178, y: -34.29423, z: -1.73}
+  m_LocalPosition: {x: 1.5170822, y: -34.29423, z: -2.33}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -216435,7 +216650,7 @@ Transform:
   m_GameObject: {fileID: 1900631112}
   serializedVersion: 2
   m_LocalRotation: {x: -0.24999955, y: 0.06698707, z: 0.24999958, w: 0.933013}
-  m_LocalPosition: {x: 5.9170837, y: -26.69423, z: -4.23}
+  m_LocalPosition: {x: 6.517082, y: -26.69423, z: 0.6700001}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -219416,12 +219631,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035623779}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -90.8, y: -60.9, z: -5.6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.984009, y: -60.9, z: 1.69027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 973741244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2038942504
 Mesh:
@@ -232162,12 +232377,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057621952}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.200005, y: -1008.9, z: -5.2000012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 20.584007, y: -1008.9, z: 2.0902686}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 973741244}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2099100766
 GameObject:
@@ -232183,6 +232398,7 @@ GameObject:
   - component: {fileID: 2099100769}
   - component: {fileID: 2099100768}
   - component: {fileID: 2099100767}
+  - component: {fileID: 2099100773}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Obstacle
@@ -232349,6 +232565,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134173246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2099100773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099100766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcab18b2dcdf7b409cb19d9cabd515d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColorChange
+  colors:
+  - {fileID: 2100000, guid: aa092d0fc0cc0994a9758e71fa52ce37, type: 2}
+  - {fileID: 2100000, guid: edb8b69c9ff0f6b46bc0087f6001907d, type: 2}
+  - {fileID: 2100000, guid: d6686865b7c6f394db3aac870f51555e, type: 2}
+  - {fileID: 2100000, guid: 2416cedce69195448abb283db8a3e353, type: 2}
+  - {fileID: 2100000, guid: 03aacc8facd731c47bab360bf13bb386, type: 2}
 --- !u!4 &2138066906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6396861972544340767, guid: d94fdcf645aef1e4c9ea47818d542072, type: 3}
@@ -232643,14 +232877,8 @@ SceneRoots:
   - {fileID: 1898178173}
   - {fileID: 961422062}
   - {fileID: 135285778}
+  - {fileID: 838850953}
   - {fileID: 1864286631}
   - {fileID: 754501508}
   - {fileID: 973741244}
   - {fileID: 1541330760}
-  - {fileID: 2035623781}
-  - {fileID: 838850953}
-  - {fileID: 1178797856}
-  - {fileID: 2057621958}
-  - {fileID: 119989042}
-  - {fileID: 624014636}
-  - {fileID: 1710479473}

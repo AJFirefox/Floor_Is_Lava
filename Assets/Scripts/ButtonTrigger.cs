@@ -10,6 +10,7 @@ public class ButtonTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player")) // Optional: check for specific tag
         {
+            myVideoPlayer.gameObject.SetActive(true);
             myVideoPlayer.Play();
         }
     }
